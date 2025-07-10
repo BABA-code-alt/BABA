@@ -1,0 +1,504 @@
+html{
+    font-size: 62.5%;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+ul li{
+    list-style: none;
+}
+.container{
+    margin: auto;
+    width: 70%;
+    max-width: 1200px;
+}
+
+
+
+.haeder{
+    height: 95vh;
+     background:url('../img/luca-bravo-O453M2Liufs-unsplash.jpg') ; 
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     position: relative;
+}
+.navitem{
+     display: inline-block;
+    float: right;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+ .navitem a{
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    max-width: 1200px; 
+}
+.btn{
+    display: inline-block;
+    background-color: white;
+    color: red;
+    padding: 0.5em;
+    margin: 0.5em;
+    border-radius: 10em;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: #ddd;
+}
+.navitem a:hover{
+    border-bottom: 1px solid white;
+}
+.textlight{
+    color: white;
+}
+.contact{
+    position: absolute ;
+
+    text-transform: uppercase;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.contact p{
+    padding: 10px;
+}
+.bg-dark{
+    background-color: #262626;
+}
+
+.logo{
+    color:white;
+    float: left;
+    font-size: 3.5rem;
+}
+.navbar{
+    
+    padding-top: 1rem;
+   
+}
+.navbar::after{
+    content:'';
+    display: block;
+    clear: both;
+
+}
+.showcase{
+    background-color:whitesmoke;
+    padding: 10rem 0;
+}
+.row{
+    background-color: whitesmoke;
+    height: 200px;
+    border: 2px solid red;
+    box-shadow: 0px 0px 20px 0px #aaa;
+}
+.row1{
+    margin-bottom: 10rem;
+}
+.row1 .imgbox, .row2 .textbox{
+    float:left;
+    width: 50%;
+}
+.row2 .imgbox, .row1 .textbox{
+    float: right;
+    width: 50%;
+}
+ .row .imgbox{
+   
+    height: 100%;
+ } 
+ .row .textbox{
+    
+        
+        height: 100%;
+ }
+ .row .imgbox img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }
+h1{
+    padding: 10px;
+}
+p{
+  
+    font-size: 16px;
+    padding: 10px;
+}
+.btn2{
+    border: 2px solid red;
+}
+.btn2:hover{
+    background-color: #ddd;
+}
+.features{
+    padding: 10rem;
+    
+}
+.mianbox{
+    
+    box-shadow: 5px 5px 20px 0px rgb(26, 21, 21);
+}
+.box{
+    width: 33.3333%;
+    float: left;
+    border: 2px solid black;
+    padding: 1rem;
+    text-align: center;
+}
+.mianbox::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.box1,.box3{
+    background-color: #262626;
+    color: white;
+}
+.box2{
+    background-color: red;
+    color: white;
+}
+.raz{
+    color: red;
+}
+.footer{
+    background-color: #262626;
+    color: #f4f4f4;
+    padding: 2rem;
+    text-align: center;
+    
+
+}
+.hus{
+    margin: 0.5rem;
+}
+.mia{
+    padding-top: 0px;
+    font-size: 10px;
+}
+ 
+ /*#########about styling*/
+ .about{
+    padding: 5rem 0; 
+ }
+ .bor{
+    font-size: 20px;
+ }
+    
+ 
+ .pad{
+    letter-spacing: 0.2rem;
+    border-bottom: 4px solid #e63946; 
+ }
+ .size{
+    font-size: 13px;
+ }
+ .wrap .left{
+    float: left;
+    width: 50%;
+ }
+ .wrap .right{
+    float: right;
+    width: 50%;
+ }
+ .wrap{
+    
+    text-align: center;
+    margin-top: 2rem;
+ }
+.wrap::after{
+    content:'' ;
+    display: block;
+    clear: both;
+  
+}
+.wrap li::before{
+    content:'\2713';
+    color: #e63946;
+    padding-right: 1rem;
+    font-weight: bold;
+}
+.na{
+    border: 2px solid red;
+    float: left;
+    width: 25%;
+    display: block;
+}
+.write{
+   
+    margin-top: 2.75rem;
+}
+.item{
+    
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.write::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.write span{
+    font-size: 2rem;
+    font-weight: 1000px;
+    color: #e63946;
+    font-weight: bold;
+}
+.write p{
+    font-size: 12px;
+    padding-top: 3px;
+}
+.banner{
+    background-color: #ee4758;
+    color: white;
+    padding: 1rem;
+    box-shadow: 5px 5px 10px 0px #262626;
+}
+.left{
+    float: left;
+    width: 60%;
+}
+.right{
+    float: right;
+    width: 40%;
+}
+.banner::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+ .right a{
+    text-align: center;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: uppercase;
+    border: 4px solid white;
+    padding: 0.3rem 2.5em;
+    letter-spacing: 0.1em;
+    color: #f4f4f4;
+    text-decoration: none;
+}
+/*styling for vontact page*/
+.mian{
+    padding: 5rem 0rem; 
+} 
+.formpage::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.formpage{
+   background-color: #f4f4f4;
+    
+
+}
+
+
+
+.textred{
+    color: red;
+}
+.company1{
+    
+    float: left;
+    width: 49%;
+    padding: 0.5rem;
+   
+}
+form{
+    float: right;
+    width: 49%;
+ 
+}
+.company{
+    
+    margin-bottom: 1em;
+}
+.company h2{
+    display: inline-block;
+    margin-right: 1rem;
+    text-transform: uppercase;
+    text-decoration: nones;
+}
+.company1 img{
+    width: 95%;
+    object-fit: cover;
+    object-position: right;
+    height: 210px;
+    
+}
+form{
+    font-size: 1.6rem;
+    padding: 0.5rem;
+    
+}
+form h1::after{
+    content: '';
+    display: block;
+    
+    width:100%;
+}
+form h1{
+    margin: 0px;
+    padding: 0px;
+    border-bottom: 3px solid red;
+}
+.fill label{
+    display: block;
+}
+.fill input{
+    padding: 0.5rem;
+    width: 100%;
+   height: 20px;
+}
+.fill{
+    margin-bottom: 0.5rem;
+}
+.fill label::after{
+    content: '*';
+    color: #e63946;
+}
+.fill textarea{
+    width: 100%;
+    height: 150px;
+    padding: 1rem;
+}
+form button{
+    display: block;
+    margin: 0 auto;
+    padding: 0.3em 3em;
+    text-transform: uppercase;
+    background: #e63946;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+  
+@media (max-width: 500px){
+    html{
+        font-size: 50%;
+    }
+    .navbar .navitems, .navbar .logo{
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .row{
+        height: auto;
+        width: 100%;
+    }
+    .row .imgbox, .row .textbox{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .features .box{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .features .box2, .features .box3{
+        margin-top: 2rem;
+    }
+    .banner .left,.banner .right{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .formpage .company1{
+        float: none;
+        width: 100%;
+        text-align: center;
+        height: auto;
+        margin-bottom: 2rem;
+    }
+    .formpage form{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    
+
+}
+@media (min-width: 502px) and (max-width: 768px){
+    html{
+        font-size: 8px;
+    }
+    body{
+        font-size: 1.8rem;
+    }
+    .navbar .navitems, .navbar .logo{
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .row{
+        height: auto;
+        width: 100%;
+    }
+    .row .imgbox, .row .textbox{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .features .box{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .features .box2, .features .box3{
+        margin-top: 2rem;
+    }
+    .banner .left,.banner .right{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .formpage .company1{
+        float: none;
+        width: 100%;
+        text-align: center;
+        height: auto;
+        margin-bottom: 2rem;
+    }
+    .formpage form{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+}
+@media (min-width: 769px) and (max-width: 1200px){
+    html{
+        font-size: 56.25%;
+    }
+    .row .textbox p{
+        font-size: 13px;
+    }
+    .mianbox .box2, .mianbox .box3{
+        margin-bottom: none;
+        padding-bottom: none;
+        height: 100%;
+        
+        
+    }
+}
+@media (orientation: landscape) and (max-height: 500px){
+    .haeder{
+        height: 90vmax;
+    }
+}
